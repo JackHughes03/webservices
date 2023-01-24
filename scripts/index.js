@@ -4,6 +4,12 @@ video.loop = true;
 video.muted = true;
 video.play();
 
+var video2 = document.getElementById("fallvideo");
+video2.autoplay = true;
+video2.loop = true;
+video2.muted = true;
+video2.play();
+
 const title = "Jack Hughes Web Services";
 const titleElement = document.getElementById("commastitle");
 let index = 0;
