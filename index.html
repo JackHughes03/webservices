@@ -24,22 +24,52 @@
         <input id="inputid" type="submit" value="Send">
     </form> -->
 
-
+    <div id="rjs_cursor" class="rjs-cursor">
+        <div class="rjs-cursor-icon"></div>
+    </div>
     <div class="container">
+
         <section id="stop1">
             <h1 id="title">
                 <span id="coutprint">cout</span>
                 <span id="biggerthantitle"> << </span> 
                 <span id="commastitle"></span>
-                <span id="biggerthantitle2"> << </span>
+                <span id="biggerthantitle2"> << </span> 
                 <span id="endlcout"> endl; </span>
             </h1>
             <video id="bikevideo">
-                <source src="videos/bike.mp4" type="video/mp4">
+                <source src="videos/bike2.mp4" type="video/mp4">
             </video>
         </section>
-        <section id="stop2"></section>
-        <section id="stop3"></section>
+
+        <section id="stop2">
+        </section>
+        <section id="stop3">
+        <div id="suport">
+                <div id="smash">
+                    <div id="translateShadow">
+                        <div id="light"></div>
+                        <div id="rotateImg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container2">
+                <span id="text1"></span>
+                <span id="text2"></span>
+            </div>
+
+            <svg id="filters">
+                <defs>
+                    <filter id="threshold">
+                        <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+                    </filter>
+                </defs>
+            </svg>
+        </section>
         <section id="stop4"></section>
     </div>
 
