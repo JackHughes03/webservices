@@ -43,7 +43,6 @@ function writeTitle() {
 }
 
 
-
 function fallApart() {
   // select all letter elements
   const letters = document.querySelectorAll(".letter");
