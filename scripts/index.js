@@ -1,8 +1,5 @@
-document.addEventListener("wheel", function(event) {
-  if (event.deltaX > 0) {
-      event.preventDefault();
-  }
-});
+document.body.style.width = window.innerWidth + "px";
+document.body.scrollLeft = window.innerWidth;
 
 
 var video = document.getElementById("bikevideo");
