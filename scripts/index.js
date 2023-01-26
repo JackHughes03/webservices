@@ -10,6 +10,10 @@ video2.loop = true;
 video2.muted = true;
 video2.play();
 
+document.getElementById("bikevideo").play();
+document.getElementById("fallvideo").play();
+
+
 const title = "Jack Hughes Web Services";
 const titleElement = document.getElementById("commastitle");
 let index = 0;
