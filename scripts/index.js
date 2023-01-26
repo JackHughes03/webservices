@@ -1,3 +1,10 @@
+document.addEventListener("wheel", function(event) {
+  if (event.deltaX > 0) {
+      event.preventDefault();
+  }
+});
+
+
 var video = document.getElementById("bikevideo");
 video.autoplay = true;
 video.loop = true;
