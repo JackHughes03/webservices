@@ -120,6 +120,7 @@ input[type="submit"]:hover {
     top: 50%;
     left: 50%;
     width: 60%;
+    max-width: 600px;
     height: 40%;
     transform: translate(-50%, -50%);
     background-color: rgba(30, 40, 45, 0.673);
@@ -135,6 +136,7 @@ input[type="submit"]:hover {
 #middleblock:hover #stop2title {
     opacity: 1;
 }
+
 #middleblock:hover #stop2button {
     opacity: 1;
     animation: ring 3s infinite;
@@ -150,7 +152,7 @@ input[type="submit"]:hover {
     font-size: 30px;
     left: 50%;
     transform: translate(-50%);
-    opacity: 0;
+    /* opacity: 0; */
     transition: 300ms;
     /* background-color: #143d7f; */
     padding: 10px;
@@ -159,6 +161,7 @@ input[type="submit"]:hover {
     text-align: center;
     border-radius: 5px;
     /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.264); */
+    opacity: 0.3;
 }
 
 #stop2button {
@@ -173,15 +176,15 @@ input[type="submit"]:hover {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0;
+    opacity: 0.3;
     transition: 300ms;
     border: none;
     border-radius: 2px;
     margin-top: 70px;
+    background-color: #143d7f;
 }
 #stop2button:hover {
     animation: none;
-    background-color: #143d7f;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.264);
 }
 
